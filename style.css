@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 216, 216);
+}
+.gambar{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.text{
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+nav{
+    height: 70px;
+    background: gray;
+    display: flex;
+    padding: 12.5px 12.5px;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+    padding: 10px;
+    margin-left: 70rem;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 2s;
+}
+nav ul li a:hover{
+    color: rgb(219, 216, 216);
+}
+
+section{
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 2rem;
+
+}
+.resume{
+    background-color: rgb(219, 216, 216);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+.hire{
+    background-color: grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+
+}
+.gambarSamping{
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-left: 55rem;
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        display: block;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        margin-left: 1rem;
+    }
+    .textTengah{
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .gambarSamping{
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    section{
+        padding: 0px;
+    }
+    .nav{
+        width: 100%;
+    }
+}
+    
